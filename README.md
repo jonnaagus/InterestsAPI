@@ -6,6 +6,9 @@ Lägg till personer
 
 Hämta alla personer
 ![Skärmbild 2024-05-30 224036](https://github.com/jonnaagus/InterestsAPI/assets/144246531/8b9dd9e6-f3fc-4cf9-8c74-c46007a0ae6a)
+
+Response body:
+```json
 [
   {
     "personId": 1,
@@ -153,10 +156,12 @@ Hämta alla personer
     ]
   }
 ]
-
+```
 Hämta personer med ID
 ![Skärmbild 2024-05-30 224107](https://github.com/jonnaagus/InterestsAPI/assets/144246531/2321bcf1-c69c-4171-9772-d7d06339f8ca)
 ![Skärmbild 2024-05-30 224122](https://github.com/jonnaagus/InterestsAPI/assets/144246531/76836ce2-4ae3-47ab-9694-170666b142c9)
+Response body:
+```json
 {
   "personId": 3,
   "personName": "Svante",
@@ -226,8 +231,7 @@ Hämta personer med ID
     }
   ]
 }
-
-
+```
 Lägg till intressen
 ![Skärmbild 2024-05-30 224244](https://github.com/jonnaagus/InterestsAPI/assets/144246531/d97b36b4-a5d0-4aed-9d84-f3629161b73b)
 ![Skärmbild 2024-05-30 224255](https://github.com/jonnaagus/InterestsAPI/assets/144246531/b2238e70-fcac-46eb-9b2a-5fd8b0868888)
@@ -235,6 +239,8 @@ Lägg till intressen
 Hämta alla intressen
 ![Skärmbild 2024-05-30 225720](https://github.com/jonnaagus/InterestsAPI/assets/144246531/73f99fc2-62fa-4746-a700-0d885698ad5f)
 ![Skärmbild 2024-05-30 225730](https://github.com/jonnaagus/InterestsAPI/assets/144246531/e7f3318f-dc1e-406c-a7cc-fe26497d9bf6)
+Response body:
+```json
 [
   {
     "interestId": 1,
@@ -279,13 +285,15 @@ Hämta alla intressen
     "interestParticipations": null
   }
 ]
-
+```
 Lägg till länkar till befintligt InterestParticipationId
 ![Skärmbild 2024-05-30 232729](https://github.com/jonnaagus/InterestsAPI/assets/144246531/e2240a3c-7e1a-4cce-9cb6-f4ffa7c35c4b)
 ![Skärmbild 2024-05-30 232950](https://github.com/jonnaagus/InterestsAPI/assets/144246531/84622729-a095-41e7-aa29-f2238b259f4b)
 ![Skärmbild 2024-05-30 233003](https://github.com/jonnaagus/InterestsAPI/assets/144246531/0927f4f4-8fb8-42ba-b81d-9037aa0662b8)
 ![Skärmbild 2024-05-30 233015](https://github.com/jonnaagus/InterestsAPI/assets/144246531/bb0e42f3-8cd9-406e-862a-3a286d98fdd8)
-  {
+Response body:
+```json
+{
     "personId": 1,
     "personName": "Jonna",
     "contact": "0987654321",
@@ -376,3 +384,4 @@ Lägg till länkar till befintligt InterestParticipationId
       }
     ]
   },
+```
